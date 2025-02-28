@@ -7,15 +7,14 @@
 * Apply CSS styling to dynamic data
 * Explore pro/cons of JS libraries, plugins, frameworks, etc.
 
-## Citations
-* List your citations here
-
 ## How?
-* Simply click on "Use this template" button to create a new repository
+* Used a provided template and customized the layout until I had a personalized Mindful Dashboard.
 
 ## Citations
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Font Share](https://www.fontshare.com/)
-<!-- code pen, chat gpt, unsplash, pixbay, figma -->
-
+* [Code Pen](https://codepen.io/)
+* [Chat GPT](https://chatgpt.com/)
+* [Pixbay](https://pixabay.com/)
+* [Figma](https://www.figma.com/)
 
