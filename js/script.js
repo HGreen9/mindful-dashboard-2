@@ -91,6 +91,6 @@ function renderCalendar() {
   
   randomColorElement.style.backgroundColor = randomColor;
   randomColorElement.style.width = '100%';
-  randomColorElement.style.height = '125px'; // Adjust the height as needed
+  randomColorElement.style.height = '145px'; // Adjust the height as needed
   randomColorElement.style.opacity = "70%"; // Optional: Add transparency
   randomColorElement.style.borderRadius = '8px'; // Optional: Add rounded corners
