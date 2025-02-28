@@ -16,5 +16,6 @@
 ## Citations
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Font Share](https://www.fontshare.com/)
+<!-- code pen, chat gpt, unsplash, pixbay, figma -->
 
 
