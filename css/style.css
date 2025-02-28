@@ -1,4 +1,10 @@
+@import url(https://www.fontshare.com/fonts/zodiak);
+@import url(https://www.fontshare.com/fonts/dancing-script);
+
 /* Add the @font-face declarations */
+
+/* Zodiak */
+
 @font-face {
   font-family: 'Zodiak-Thin';
   src: url('../fonts/Zodiak-Thin.woff2') format('woff2'),
@@ -126,11 +132,42 @@
   font-style: italic;
 }
 
+/* Dancing Script */
+
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url('../fonts/DancingScript-Regular.woff2') format('woff2'),
+       url('../fonts/DancingScript-Regular.woff') format('woff'),
+       url('../fonts/DancingScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DancingScript-Bold';
+  src: url('../fonts/DancingScript-Bold.woff2') format('woff2'),
+       url('../fonts/DancingScript-Bold.woff') format('woff'),
+       url('../fonts/DancingScript-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DancingScript-Variable';
+  src: url('../fonts/DancingScript-Variable.woff2') format('woff2'),
+       url('../fonts/DancingScript-Variable.woff') format('woff'),
+       url('../fonts/DancingScript-Variable.ttf') format('truetype');
+  font-weight: 400 700;
+  font-display: swap;
+  font-style: normal;
+}
+
 /* Existing styles */
 body {
   background: #f0ebe1; /* soothing, earthy tone */
   color: #4a4a4a;
-  font-family: 'Zodiak-Regular', Arial, sans-serif; /* Updated font-family */
+  font-family: "Zodiak-Regular", Arial, sans-serif; /* Updated font-family */
   margin: 0;
   padding: 20px;
 }
@@ -138,6 +175,7 @@ body {
 h2 {
   color: #6b4f4f;
   margin-bottom: 10px;
+  font-family: "Zodiak-Regular";
 }
 
 .widget {
@@ -149,6 +187,7 @@ h2 {
 
 /* Bento Box Grid Layout */
 .bento-container {
+  background-color: #a2b8a3;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -210,4 +249,22 @@ h2 {
 .random img {
   width: 100%;
   border-radius: 8px;
+}
+
+#quote {
+  font-family: "DancingScript-Regular";
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #a2b8a3; /* Change this to your desired background color */
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider {
+  background-color: #a2b8a3; /* Change this to your desired background color */
 }

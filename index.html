@@ -23,57 +23,60 @@
     <script src="js/script.js" defer></script>
 
     <title>Mindful Dashboard Template</title>
+
 </head>
 <body>
     
     <main class="bento-container">
 
-      <div class="bento-container">
         <!-- Calendar Widget -->
-        <div class="widget calendar calendar-widget">
+        <section class="widget calendar calendar-widget">
           <h2>Calendar</h2>
           <div class="calendar" id="calendar"></div>
-        </div>
+        </section> 
+        
     
         <!-- Clock Widget -->
-        <div class="widget clock">
+        <section class="widget clock">
           <h2>Current Time</h2>
           <div id="clock"></div>
-        </div>
+        </section>
     
         <!-- Graduation Countdown Widget -->
-        <div class="widget countdown">
+        <section class="widget countdown">
           <h2>Graduation Countdown</h2>
           <div id="countdown"></div>
-        </div>
+        </section>
     
         <!-- Inspirational Quote Widget -->
-        <div class="widget quote">
+        <section class="widget quote">
           <h2>Inspirational Quote</h2>
           <div id="quote"></div>
-        </div>
+        </section>
     
         <!-- Notes Widget -->
-        <div class="widget notes">
+        <section class="widget notes">
           <h2>Notes & To-Do</h2>
           <textarea placeholder="Jot down your thoughts..."></textarea>
-        </div>
+        </section>
     
         <!-- Music Bar Widget -->
-        <div class="widget music music-bar">
+        <section class="widget music music-bar">
           <h2>Music</h2>
+
           <!-- Replace 'your-song.mp3' with your track URL -->
           <audio controls>
-            <source src="/assets/chill-lofi-music-interior-lounge-256260.mp3" type="audio/mp3">
+            <source src="/Assets/chill-lofi-music-interior-lounge.mp3" type="audio/mp3">
           </audio>
-        </div>
+        </section>
     
         <!-- Random Image Widget -->
-        <div class="widget random">
+        <section class="widget random">
           <h2>Random Image</h2>
           <img id="randomImage" src="" alt="Random Image">
-        </div>
-      </div>
+        </section>
+
+    </main>
 
 </body>
 </html>
