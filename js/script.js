@@ -57,16 +57,40 @@ function renderCalendar() {
   document.getElementById('quote').textContent = getRandomQuote();
   
   // --- Random Image ---
-  const images = [
-    'https://anthony-ievlev-RZk2SjAGhZw-unsplash.jpg',
-    'https://chris-lawton-5IHz5WhosQE-unsplash.jpg',
-    'https://johannes-plenio-RwHv7LgeC7s-unsplash.jpg',
-    'https://mark-tegethoff-NbgQfUvKFE0-unsplash.jpg',
-    'https://olivia-hutcherson-rN3m7aTH3io-unsplash.jpg',
-    'https://priscilla-du-preez-Sce52e91snA-unsplash.jpg',
-    'https://sergey-n-wKFXCOWdcjQ-unsplash.jpg',
+  // const images = [
+  //   'https://anthony-ievlev-RZk2SjAGhZw-unsplash.jpg',
+  //   'https://chris-lawton-5IHz5WhosQE-unsplash.jpg',
+  //   'https://johannes-plenio-RwHv7LgeC7s-unsplash.jpg',
+  //   'https://mark-tegethoff-NbgQfUvKFE0-unsplash.jpg',
+  //   'https://olivia-hutcherson-rN3m7aTH3io-unsplash.jpg',
+  //   'https://priscilla-du-preez-Sce52e91snA-unsplash.jpg',
+  //   'https://sergey-n-wKFXCOWdcjQ-unsplash.jpg',
+  // ];
+  // function getRandomImage() {
+  //   return images[Math.floor(Math.random() * images.length)];
+  // }
+  // document.getElementById('randomImage').src = getRandomImage();
+
+
+    const colors = [
+    "#45462A",
+    "#606C38",
+    "#BC6C25",
+    "#D4A373",
+    "#EFDCAC",
   ];
-  function getRandomImage() {
-    return images[Math.floor(Math.random() * images.length)];
+  
+  function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)];
   }
-  document.getElementById('randomImage').src = getRandomImage();
+  
+  const randomColorElement = document.getElementById('randomColor'); // Updated ID
+  const randomColor = getRandomColor();
+  
+  console.log('Selected color:', randomColor); // Log the selected color
+  
+  randomColorElement.style.backgroundColor = randomColor;
+  randomColorElement.style.width = '100%';
+  randomColorElement.style.height = '125px'; // Adjust the height as needed
+  randomColorElement.style.opacity = "70%"; // Optional: Add transparency
+  randomColorElement.style.borderRadius = '8px'; // Optional: Add rounded corners

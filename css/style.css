@@ -246,7 +246,13 @@ h2 {
 }
 
 /* Random Image */
-.random img {
+/* .random img {
+  width: 100%;
+  border-radius: 8px;
+} */
+
+/* Random Color */
+.random {
   width: 100%;
   border-radius: 8px;
 }
