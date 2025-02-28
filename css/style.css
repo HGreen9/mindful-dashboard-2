@@ -197,6 +197,12 @@ h2 {
     "notes music random";
 }
 
+/* Bento Box Hover Effect */
+#hover-effect:hover {
+  background-color: #fef4e3; 
+}
+
+
 /* Assign grid areas */
 .calendar { grid-area: calendar; }
 .clock { grid-area: clock; }
