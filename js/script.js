@@ -58,11 +58,13 @@ function renderCalendar() {
   
   // --- Random Image ---
   const images = [
-    'https://example.com/image1.jpg',
-    'https://example.com/image2.jpg',
-    'https://example.com/image3.jpg',
-    'https://example.com/image4.jpg',
-    'https://example.com/image5.jpg'
+    'https://anthony-ievlev-RZk2SjAGhZw-unsplash.jpg',
+    'https://chris-lawton-5IHz5WhosQE-unsplash.jpg',
+    'https://johannes-plenio-RwHv7LgeC7s-unsplash.jpg',
+    'https://mark-tegethoff-NbgQfUvKFE0-unsplash.jpg',
+    'https://olivia-hutcherson-rN3m7aTH3io-unsplash.jpg',
+    'https://priscilla-du-preez-Sce52e91snA-unsplash.jpg',
+    'https://sergey-n-wKFXCOWdcjQ-unsplash.jpg',
   ];
   function getRandomImage() {
     return images[Math.floor(Math.random() * images.length)];
